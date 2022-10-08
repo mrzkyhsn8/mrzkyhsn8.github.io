@@ -4,23 +4,16 @@
 :root {
   --header-height: 3rem;
   --font-semi: 600;
-  /*===== Colores =====*/
-  /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
-  /* HSL color mode */
-  /* --hue-color: 150;
-  --first-color: hsl(var(--hue-color), 98%, 64%);
-  --second-color: hsl(var(--hue-color), 56%, 12%); */
-  
   --first-color: #55f0a1;
   --second-color: #ffffff;
   --third-color: #0c0c0c;
-  /*===== Fuente y tipografia =====*/
+  /*===== Typography =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
-  /*===== Margenes =====*/
+  /*===== Margins =====*/
   --mb-2: 1rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
@@ -32,7 +25,7 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: 3.5rem;
+    --big-font-size: 3.2rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
@@ -139,7 +132,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: var(--third-color);
     transition: .5s;
   }
 }
@@ -305,7 +298,7 @@ img {
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 0px 4px 25px rgb(138 146 150 / 15%);
 }
 
 .skills__icon {
@@ -364,8 +357,8 @@ img {
   text-align: center;
 }
 
-.work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+.work__img img{
+  /* box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15); */
   border-radius: .5rem;
   overflow: hidden;
   margin-bottom: var(--mb-2);
