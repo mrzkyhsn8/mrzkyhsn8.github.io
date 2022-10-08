@@ -357,14 +357,13 @@ img {
   text-align: center;
 }
 
-.work__img img{
-  /* box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15); */
+.work__img{
   border-radius: .5rem;
   overflow: hidden;
-  margin-bottom: var(--mb-2);
+  /* margin-bottom: var(--mb-2); */
 }
 
-.work__img img {
+.work__img img{
   transition: 1s;
 }
 
@@ -378,6 +377,7 @@ img {
   max-width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
+  font-family: var(--body-font);
   padding: 1rem;
   border-radius: .5rem;
   border: 1.5px solid var(--second-color);
