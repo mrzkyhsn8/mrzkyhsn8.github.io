@@ -322,20 +322,16 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html {
-  width: 95%;
-}
-
-.skills__css {
-  width: 85%;
-}
-
 .skills__js {
+  width: 70%;
+}
+
+.skills__jquery {
   width: 65%;
 }
 
-.skills__ux {
-  width: 80%;
+.skills__reactjs {
+  width: 50%;
 }
 
 .skills__img {
@@ -344,7 +340,7 @@ img {
 
 /* ===== WORK =====*/
 .work__container {
-  row-gap: 2rem;
+  row-gap: 4rem;
 }
 
 .work__text {
